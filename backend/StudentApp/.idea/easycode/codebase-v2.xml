@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="com.obiscr.chatgpt.settings.EasyCodeState">
-    <option name="projectFiles" value="$PROJECT_DIR$/src/main/java/com/example/HelloServlet.java" />
-    <option name="forceFullIndex" value="false" />
-    <option name="fileSummaryMaps" value="{&quot;C:/DEV/JAVA/KODNEST/servlets/student-project/backend/StudentApp&quot;:&quot;{\&quot;/src/main/java/com/example/HelloServlet.java\&quot;:\&quot;This file contains a single Java class, `HelloServlet`, which extends the `HttpServlet` class from the Jakarta Servlet API.\\n\\n`HelloServlet`: This class is a servlet that responds to HTTP requests with the message \\\&quot;Hello World!\\\&quot;.\\n\\n`service(HttpServletRequest, HttpServletResponse)`: This method is overridden from the `HttpServlet` class and is responsible for handling the incoming HTTP request and generating the response.\&quot;}&quot;}" />
-    <option name="fileSkeletonMaps" value="{&quot;C:/DEV/JAVA/KODNEST/servlets/student-project/backend/StudentApp&quot;:&quot;{\&quot;/src/main/java/com/example/HelloServlet.java\&quot;:{\&quot;file_path\&quot;:\&quot;/src/main/java/com/example/HelloServlet.java\&quot;,\&quot;file_name\&quot;:\&quot;HelloServlet.java\&quot;,\&quot;methods\&quot;:[{\&quot;method_name\&quot;:\&quot;service\&quot;,\&quot;method_parameters\&quot;:\&quot;(HttpServletRequest req, HttpServletResponse resp)\&quot;,\&quot;parameter_declarations\&quot;:[{\&quot;type\&quot;:\&quot;HttpServletRequest\&quot;,\&quot;name\&quot;:\&quot;req\&quot;},{\&quot;type\&quot;:\&quot;HttpServletResponse\&quot;,\&quot;name\&quot;:\&quot;resp\&quot;}],\&quot;return_type\&quot;:\&quot;void\&quot;,\&quot;scope\&quot;:[[12,4],[15,5]]}]}}&quot;}" />
-  </component>
-</project>

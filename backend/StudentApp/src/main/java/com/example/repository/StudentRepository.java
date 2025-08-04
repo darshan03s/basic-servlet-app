@@ -1,18 +1,12 @@
 package com.example.repository;
 
 import com.example.entities.Student;
+import com.example.utils.HibernateUtil;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
-
-import org.hibernate.Session;
-import org.hibernate.SessionFactory;
-import org.hibernate.cfg.Configuration;
 
 public class StudentRepository {
-    private static final SessionFactory sessionFactory = new Configuration()
-            .configure()
-            .addAnnotatedClass(Student.class)
-            .buildSessionFactory();
+    private static final SessionFactory sessionFactory = HibernateUtil.getSessionFactory();
 
     public void save(Student student) {
         try (Session session = sessionFactory.openSession()) {
